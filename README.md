@@ -1,0 +1,2 @@
+Magento-Module-Associate-Image
+==============================
