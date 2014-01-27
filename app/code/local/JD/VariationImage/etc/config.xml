@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/code/local/JD/VariationImage/etc/config.xml -->
+<config>
+    <modules>
+        <JD_VariationImage>
+            <version>1.0.0</version>
+        </JD_VariationImage>
+    </modules>
+	<frontend>
+       <routers>
+          <routerfrontend>
+              <use>standard</use>
+              <args>
+                 <module>JD_VariationImage</module>
+                 <frontName>variationimage</frontName>
+              </args>
+           </routerfrontend>
+       </routers>
+    </frontend>
+</config>
